@@ -1,0 +1,38 @@
+body,
+ul,
+a {
+  all: unset;
+  list-style: none;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: hsl(206, 90%, 8%);
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 12px;
+  background-color: hsla(206, 69%, 76%, 0.5);
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  flex-flow: column;
+}
+
+.img-profile {
+  width: fit-content;
+}
